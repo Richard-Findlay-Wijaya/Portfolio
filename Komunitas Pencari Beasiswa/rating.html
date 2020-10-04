@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating</title>
+    <link rel="stylesheet" href="rating.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="Image/LOGO PUTIH.png" alt="">
+            </div>
+            <div class="nav-item">
+                <a href="index.html">Home</a>
+                <a href="feedback.html">Feedback</a>
+                <a href="rating.html">Rating</a>
+                <a href="forum.html">Forum</a>
+                <a href="login.html">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="title">Rating</div>
+    <div class="sub-title">Mohon memberikan rating sesuai dengan pelayanan yang diterima.
+    <br>Segala rating yang masuk akan sangat bermanfaat untuk pengembangan layanan kami.</div>
+
+    <div class="container">
+        <div class="question">Fitur menu home
+            <span id="errorhome" class="error"></span>
+            <div class="box">
+                <input type="radio" name="home" class="radio-input" id="home1">
+                <label for="male" class="radio">sangat tidak baik</label>
+                <input type="radio" name="home" class="radio-input" id="home2">
+                <label for="female" class="radio">tidak baik</label>
+                <input type="radio" name="home" class="radio-input" id="home3">
+                <label for="female" class="radio">baik</label>
+                <input type="radio" name="home" class="radio-input" id="home4">
+                <label for="female" class="radio">sangat baik</label>
+            </div>
+        </div>
+
+        <div class="question">Fitur menu login
+            <span id="errorlogin" class="error"></span>
+            <div class="box">
+                <input type="radio" name="login" class="radio-input" id="login1">
+                <label for="male" class="radio">sangat tidak baik</label>
+                <input type="radio" name="login" class="radio-input" id="login2">
+                <label for="female" class="radio">tidak baik</label>
+                <input type="radio" name="login" class="radio-input" id="login3">
+                <label for="female" class="radio">baik</label>
+                <input type="radio" name="login" class="radio-input" id="login4">
+                <label for="female" class="radio">sangat baik</label>
+            </div>
+        </div>
+
+        <div class="question">Fitur menu registrasi
+            <span id="errorregist" class="error"></span>
+            <div class="box">
+                <input type="radio" name="registrasi" class="radio-input" id="regist1">
+                <label for="male" class="radio">sangat tidak baik</label>
+                <input type="radio" name="registrasi" class="radio-input" id="regist2">
+                <label for="female" class="radio">tidak baik</label>
+                <input type="radio" name="registrasi" class="radio-input" id="regist3">
+                <label for="female" class="radio">baik</label>
+                <input type="radio" name="registrasi" class="radio-input" id="regist4">
+                <label for="female" class="radio">sangat baik</label>
+            </div>
+        </div>
+
+        <div class="question">Fitur menu feedback
+            <span id="errorfeedback" class="error"></span>
+            <div class="box">
+                <input type="radio" name="feedback" class="radio-input" id="feedback1">
+                <label for="male" class="radio">sangat tidak baik</label>
+                <input type="radio" name="feedback" class="radio-input" id="feedback2">
+                <label for="female" class="radio">tidak baik</label>
+                <input type="radio" name="feedback" class="radio-input" id="feedback3">
+                <label for="female" class="radio">baik</label>
+                <input type="radio" name="feedback" class="radio-input" id="feedback4">
+                <label for="female" class="radio">sangat baik</label>
+            </div>
+        </div>
+
+        <div class="question">Fitur menu rating
+            <span id="errorrating" class="error"></span>
+            <div class="box">
+                <input type="radio" name="rating" class="radio-input" id="rating1">
+                <label for="male" class="radio">sangat tidak baik</label>
+                <input type="radio" name="rating" class="radio-input" id="rating2">
+                <label for="female" class="radio">tidak baik</label>
+                <input type="radio" name="rating" class="radio-input" id="rating3">
+                <label for="female" class="radio">baik</label>
+                <input type="radio" name="rating" class="radio-input" id="rating4">
+                <label for="female" class="radio">sangat baik</label>
+            </div>
+        </div>
+
+        <div class="question">Fitur menu forum
+            <span id="errorforum" class="error"></span>
+            <div class="box">
+                <input type="radio" name="forum" class="radio-input" id="forum1">
+                <label for="male" class="radio">sangat tidak baik</label>
+                <input type="radio" name="forum" class="radio-input" id="forum2">
+                <label for="female" class="radio">tidak baik</label>
+                <input type="radio" name="forum" class="radio-input" id="forum3">
+                <label for="female" class="radio">baik</label>
+                <input type="radio" name="forum" class="radio-input" id="forum4">
+                <label for="female" class="radio">sangat baik</label>
+            </div>
+        </div>
+
+        <button type="submit" onclick="validate()">Submit</button>
+    </div>
+
+    <footer>
+        <div class="copyright">Copyright &copy; Richard Findlay Wijaya</div>
+    </footer>
+    <script src="rating.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<head>
+    <title>Registrasi</title>
+    <link rel="stylesheet" href="registrasi.css">
+</head>
+<body>
+    <div class="container">
+        <img src="Image/LOGO PUTIH.png" alt="">
+        <div class="box">
+            <div class="text">Nama <span id="errornama" class="error"></span></div>
+            <div class="content-input">
+                <input type="text" class="inputs" id="inputNama"> 
+            </div>
+
+            <div class="text">Username <span id="errorusername" class="error"></span></div>
+            <div class="content-input">
+                <input type="text" class="inputs" id="inputUsername">
+            </div>
+
+            <div class="text">Password <span id="errorpassword" class="error"></span></div>
+            <div class="content-input">
+                <input type="password" class="inputs" id="inputPassword">
+            </div>
+
+            <div class="text">Jenis Kelamin
+                <input type="radio" name="gender" class="radio-input" id="genderPria">
+                <label for="male" class="radio">Pria</label>
+                <input type="radio" name="gender" class="radio-input" id="genderWanita">
+                <label for="female" class="radio">Wanita</label>
+            </div>
+            <span id="errorgender" class="error"></span>
+
+            <div class="text">Tanggal Lahir <span id="errorlahir" class="error"></span></div>
+            <select class="droplist" id="inputTanggal">
+                <option value="tanggal">Tanggal</option>
+                <option value="one">01</option>
+                <option value="two">02</option>
+                <option value="three">03</option>
+            </select>
+            <select class="droplist" id="inputBulan">
+                <option value="bulan">Bulan</option>
+                <option value="jan">Januari</option>
+                <option value="feb">Februari</option>
+                <option value="mar">Maret</option>
+            </select>
+            <select class="droplist" id="inputTahun">
+                <option value="tahun">Tahun</option>
+                <option value="tahun1">2000</option>
+                <option value="tahun2">1999</option>
+                <option value="tahun3">1998</option>
+            </select>
+
+            <div class="text">Email <span id="erroremail" class="error"></span></div>
+            <div class="content-input">
+                <input type="email" class="inputs" id="inputEmail">
+            </div>
+
+            <button type="submit" onclick="validate()">Register</button>
+            <div class="teks-login">Sudah punya akun? Login <a href="login.html">disini</a></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">Copyright &copy; Richard Findlay Wijaya</div>
+    </footer>
+    <script src="registrasi.js"></script>
+</body>
+</html>
